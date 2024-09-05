@@ -1,0 +1,267 @@
+
+
+select#kazi-category {
+    height: 35px;
+    width: 160px;
+    border-radius: 3px;
+    border-color: greenyellow;
+    cursor: pointer;
+}
+
+button.submit-button {
+    height: 35px;
+    width: 75px;
+    border: 1px solid #cccc;
+    background: greenyellow;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.custom-grid{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-grid .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.custom-grid .kazi-product {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    height: 280px;
+}
+
+.kazi-stock-out{
+    width: 100px;
+    background: #8d8d8d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.kazi-add-cart {
+    width: 100px;
+    background: greenyellow;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.kazi-add-cart:hover, button.submit-button:hover{
+    background: white;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    transition: .4s;
+}
+
+.custom-grid .kazi-product .kazi-title {
+    padding: 5px 0 0 0;
+}
+
+.kazi-price {
+    padding: 5px 0;
+}
+
+.kazi-post-thumbnail{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+
+.kazi-post-thumbnail img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+/* cart Page*/
+
+.kazi-place-order {
+    width: 95px;
+    background: darkseagreen;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.kazi-place-order a{
+    color: white;
+    text-decoration: none;
+}
+
+.kazi-customer-info {
+    margin: 0 0 60px 0;
+    width: 100%;
+}
+
+.kazi-customer-info h4{
+    text-align: center;
+}
+
+.kazi-customer-info form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.kazi-customer-info .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.kazi-customer-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.kazi-customer-info .form-container form label {
+    color: #ccc;
+    font-size: 13px;
+}
+
+.kazi-customer-info .form-container form input {
+    border: none;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.kazi-customer-info .form-container form input:focus {
+    outline: none;
+}
+
+.kazi-customer-info .form-container form input::placeholder {
+    color: #aaa;
+}
+
+.kazi-customer-info .form-container button {
+    background-color: #21825d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.kazi-customer-info .form-container button:hover {
+    color: #21825d;
+    background-color: white;
+    border: 1px solid #21825d;
+    transition: .4s;
+}
+
+
+.kazi-customer-info .form-container .group {
+    border: 2px solid #ccc;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+    height: 70px;
+    padding: 2px 0 0 8px;
+}
+
+.kazi-carts{
+    width: 100%;
+}
+
+.kazi-carts .kazi-cart{
+    padding: 10px;
+    border: 1px solid #cccc;
+    display: flex;
+}
+
+.kazi-carts .kazi-cart .product-name{
+    padding: 0 0 5px 0;
+}
+
+.kazi-carts .kazi-cart .product-desc{
+    padding: 5px 20px;
+}
+
+.kazi-carts .kazi-cart .price{
+    padding: 0 0 5px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.kazi-carts .kazi-cart .pricing {
+    padding: 0 20px;
+}
+
+.kazi-carts .kazi-cart .product-desc .desc{
+    border-color: #CCCCCC;
+    width: 175px;
+    height: 65px;
+}
+
+.kazi-carts .kazi-cart .product-desc textarea{
+    border: none;
+}
+
+.kazi-carts .kazi-cart .product-desc textarea:focus{
+    outline: none;
+}
+
+
+.kazi-carts .kazi-cart .product-img{
+    padding: 5px 0;
+    width: 30%;
+    height: 115px;
+}
+
+.kazi-carts .kazi-cart .product-img img{
+    width: 100%;
+    border: 1px solid #cccc;
+    height: 100%;
+}
+
+.kazi-carts .kazi-cart .quantity{
+    display: flex;
+}
+
+.kazi-carts .kazi-cart .quantity input{
+    width: 25px;
+    height: 20px;
+    margin: 0 10px;
+    border: 1px solid #cccc ;
+}
+
+.kazi-carts .kazi-cart .quantity .button{
+    cursor: pointer;
+    border: 1px solid #cccc;
+    padding: 0 10px;
+}
+
+.kazi-carts .kazi-cart .kazi-remove-cart{
+    border: 1px solid #cccc;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.kazi-carts .kazi-cart .kazi-remove-cart:hover{
+    background: #ef6c6c;
+    transition: .4s;
+    color: white;
+}
+
+
+

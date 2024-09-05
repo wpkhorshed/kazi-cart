@@ -1,0 +1,66 @@
+/*
+Admin Style Sheet
+*/
+
+/*Order List Table*/
+.kazi-wrap .kazi-actions{
+    display: flex;
+}
+
+.kazi-actions .edit{
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ff8d8d;
+    color: white;
+    width: 30px;
+    text-align: center;
+}
+
+
+.kazi-wrap .kazi-actions .view{
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #31ea39;
+    color: white;
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+    position: absolute;
+}
+
+/*tooltip*/
+
+/*.kazi-wrap .view {*/
+/*    position: absolute;*/
+/*}*/
+
+.kazi-wrap .kazi-tooltip {
+    background: black;
+    position: relative;
+    height: 130px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    visibility: hidden;
+}
+
+
+
+
+/*.kazi-wrap .tooltip-text::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 100%;*/
+/*    transform: translateX(-50%);*/
+/*    border: 10px solid;*/
+/*    border-color: #000000 #0000 #0000 #0000;*/
+/*}*/
+
+/*.kazi-wrap .kazi-tooltip:hover .tooltip-text {*/
+/*    top: -42px;*/
+/*    visibility: visible;*/
+/*    font-size: 13px !important;*/
+/*}*/
